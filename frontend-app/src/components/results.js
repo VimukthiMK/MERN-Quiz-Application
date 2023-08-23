@@ -1,9 +1,9 @@
 import React from 'react'
 
-const results = () => {
+const Results = () => {
     return (
         <h1>This is the result component</h1>
     ) 
   };
   
-  export default results;
+  export default Results;

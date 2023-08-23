@@ -1,11 +1,14 @@
 import '../styles/App.css';
+import React from 'react';
+
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
+
 /** Import Components */
-import main from './main';
-import quiz from './quiz';
-import results from './results';
+import Main from './main';
+import Quiz from './quiz';
+import Results from './results';
 
 
 
@@ -13,17 +16,17 @@ import results from './results';
 const router= createBrowserRouter([
   {
     path : '/',
-    element: <main></main>
+    element: <Main></Main>
 
   },
   {
     path : '/quiz',
-    element: <quiz></quiz>
+    element: <Quiz></Quiz>
 
   },
   {
     path : '/result',
-    element: <results></results>
+    element: <Results></Results>
 
   },
 ])

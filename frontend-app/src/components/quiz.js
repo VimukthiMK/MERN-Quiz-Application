@@ -1,6 +1,6 @@
 import React from 'react'
 
-const quiz = () => {
+const Quiz = () => {
     return (<h1>
         
         This is the quiz component</h1>
@@ -8,4 +8,4 @@ const quiz = () => {
     
     )
 };
-  export default quiz;
+  export default Quiz;

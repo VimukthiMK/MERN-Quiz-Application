@@ -1,10 +1,10 @@
 import React from 'react'
 
-const main = () => {
+const Main = () => {
     return (
     
-    <h1>This is the Header component</h1>
+    <h1>This is the main component</h1>
      )
   };
   
-  export default main;
+  export default Main;
