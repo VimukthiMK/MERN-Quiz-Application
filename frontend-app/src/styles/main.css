@@ -14,20 +14,19 @@ body {
 }
 
 .container{
-    height:100%;
-    width: 100%;
+    max-width: fit-content;
     display: grid;
     align-items: center;
-    row-gap: 1rem;
- 
-    justify-content: center;
+     justify-content: center;
 
 }
 
 .container .header{
-    max-width: fit-content;
-    display: flex;
-    margin: auto;
+    font-size: 3em;
+    text-align: center;
+    border: 5px solid var(--primary-color);
+    padding: .2em .1em;
+    border-radius: 4px;
 }
 .container .header h1{
     font-weight: 500;
@@ -41,11 +40,11 @@ body {
     margin: auto;
  
 }
-.container .instructions ul{
+.container .instructions ol{
     list-style-type: circle;
     
 }
-.container .instructions ul li{
+.container .instructions ol li{
     font-size: 1.4em;
     color: #cecece;
     

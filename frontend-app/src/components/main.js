@@ -12,12 +12,12 @@ const Main = () => {
             </div>
 
             <div className='instructions'>
-                <ul>
+                <ol>
                     <li>This lines contain app instructions.</li>
                     <li>This lines contain app instructions.</li>
                     <li>This lines contain app instructions.</li>
                     <li>Th is lines contain app instructions.</li>
-                </ul>
+                </ol>
             </div>
 
             <div className='form-container'>
