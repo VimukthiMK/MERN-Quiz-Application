@@ -22,17 +22,13 @@ const Main = () => {
 
             <div className='form-container'>
                 <form id='form'>
-                    <input ref={inputRef} type='text' placeholder='Username' required/>
+                    <input className='userid' ref={inputRef} type='text' placeholder='Username' required/>
                 </form>
             </div>
             
             <div className='start-container'>
                 <Link className='btn' to={'quiz'}>Start quiz</Link>
             </div>
-
-
-
-            
         </div>
     
      )
