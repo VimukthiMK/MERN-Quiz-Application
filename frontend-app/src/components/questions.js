@@ -1,12 +1,8 @@
 import React, { useState } from 'react'
 
-
-
-
-
 const Questions = () => {
     
-    const [checked, setChecked] = useState(undefined)
+    const [setChecked] = useState(false)
 
     function onSelect() {
         setChecked(true)
@@ -22,10 +18,10 @@ const Questions = () => {
             <li>
                 <input 
                             type="radio"
-                            value={checked}
+                            value={true}
                             name="options"
                             id={`q1-option`}
-                            onChange={onSelect()}
+                            onChange={onSelect}
                 />
 
                         <label className='text-primary' htmlFor="q1-option">Option</label>
