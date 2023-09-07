@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import data from '../database/data';
 
 const Questions = () => {
     
@@ -7,25 +8,35 @@ const Questions = () => {
     function onSelect() {
         setChecked(true)
     }
+
+    const questions = data[0]
+
+    useEffect(()=>{
+        console.log(questions)
+    })
    
 
   return (
     <div className='questions'>
-        <h2 className='text-light'>Simple Question</h2>
+        <h2 className='text-light'>{questions.question}</h2>
 
-        <ul>
-            <li>
+        <ul key={Questions.id}>
+           {
+            questions.options.map((q,i)=>(
+                <li key={i}>
                 <input 
                             type="radio"
-                            value={true}
+                            value={false}
                             name="options"
-                            id={`q1-option`}
+                            id={`q${i}-options`}
                             onChange={onSelect}
                 />
 
-                        <label className='text-primary' htmlFor="q1-option">Option</label>
+                        <label className='text-primary' htmlFor={`q${i}-options`}>Option</label>
                         <div className='check checked'></div>
             </li>
+            ))
+           }
             
             
               
