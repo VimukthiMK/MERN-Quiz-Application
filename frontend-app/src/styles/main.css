@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,700&display=swap');
 
 :root{
-    --prime-colour:#00ff92;
-    --text-color:#f0f0f0;
-    --dark-c0lor:#222222;
+    --prime-colour:#2421f0;
+    --dark-color: #242424;
+    --bg-color:#f1f1f1;
 
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: var(--dark-c0lor);
+    background-color: var(--bg-color);
     
 }
 
@@ -24,14 +24,13 @@ body {
 .container .header{
     font-size: 3em;
     text-align: center;
-    border: 5px solid var(--primary-color);
-    padding: .2em .1em;
+    border: 5px solid var(--dark-color);
     border-radius: 4px;
 }
 .container .header h1{
     font-weight: 500;
     font-size: 6vh;
-    color: var(--text-color);
+    color: var(--dark-color);
   
 }
 .container .instructions{
@@ -46,7 +45,7 @@ body {
 }
 .container .instructions ol li{
     font-size: 1.4em;
-    color: #cecece;
+    color: #1a0606;
     
 }
 .container .form-container{
@@ -64,7 +63,7 @@ body {
     border: none;
     border-radius: .1em;
     font-size: 1.2em;
-    color: var(--dark-c0lor);
+    color: var(--bg-color);
     text-decoration: none;
     background-color: var(--prime-colour);
 }
