@@ -6,7 +6,6 @@ const Questions = () => {
 
     function onSelect() {
         setChecked(true)
-        console.log('que')
     }
    
 
