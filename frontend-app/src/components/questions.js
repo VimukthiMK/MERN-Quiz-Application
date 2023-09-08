@@ -32,7 +32,7 @@ const Questions = () => {
                             onChange={onSelect}
                 />
 
-                        <label className='text-primary' htmlFor={`q${i}-options`}>Option</label>
+                        <label className='text-primary' htmlFor={`q${i}-options`}>{q}</label>
                         <div className='check checked'></div>
             </li>
             ))
