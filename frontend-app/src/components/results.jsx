@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import '../styles/results.css'
+import ResultTable from './ResultTable';
 
 const Results = () => {
 
@@ -41,6 +42,11 @@ const Results = () => {
 
         <div className="start">
             <Link className='res-btn' to={'/'} onClick={onRestart}>Restart</Link>
+        </div>
+
+        <div className="container">
+            {/* result table */}
+            <ResultTable></ResultTable>
         </div>
     </div>
 
