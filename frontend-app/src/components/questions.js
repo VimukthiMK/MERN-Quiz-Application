@@ -33,7 +33,7 @@ const Questions = () => {
                 />
 
                         <label className='text-primary' htmlFor={`q${i}-options`}>{q}</label>
-                        <div className='check checked'></div>
+                        <div className='check'></div>
             </li>
             ))
            }
