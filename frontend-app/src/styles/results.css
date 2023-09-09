@@ -1,11 +1,16 @@
-
+:root{
+    --prime-colour:#2421f0;
+      --dark-color: #242424;
+      --bg-color:#f1f1f1;
+      --hover-color:#5b59dd;
+  }
 
 .flex-center{
     display: flex;
     justify-content: center;    
     flex-direction: column;
     border: 1px solid #cecece;
-    padding: 3em 4em;
+    padding: 3em 2em;
     gap: 1em;
 }
 
@@ -16,7 +21,7 @@
 }
 
 .container .flex span {
-    font-size: 1.4em;
+    font-size: 1em;
     color: #2b2626;
 }
 
@@ -55,8 +60,15 @@ table {
     border: none;
     border-radius: .1em;
     font-size: 1.2em;
+    text-decoration: none;
+    background-color: var(--dark-color);
+    color: var(--bg-color);
 }
 
 .res-btn:hover{
     cursor: pointer;
+    background-color: var(--bg-color);
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+
 }

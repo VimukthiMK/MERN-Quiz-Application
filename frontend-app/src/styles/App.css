@@ -62,6 +62,10 @@ body, html{
     grid-template-columns: 1fr 1fr;
 }
 
+.start{
+  margin: 1em auto;
+}
+
 
 .container .btn{
     padding: .2em 1.7em;

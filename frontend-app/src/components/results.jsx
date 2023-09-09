@@ -34,13 +34,13 @@ const Results = () => {
                 <span className='bold'>50</span>
             </div>
             <div className='flex'>
-                <span>Quiz Result</span>
+                <span>Quiz Result :</span>
                 <span className='bold'>Passed</span>
             </div>
         </div>
 
         <div className="start">
-            <Link className='btn' to={'/'} onClick={onRestart}>Restart</Link>
+            <Link className='res-btn' to={'/'} onClick={onRestart}>Restart</Link>
         </div>
     </div>
 
