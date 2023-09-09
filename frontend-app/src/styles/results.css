@@ -31,6 +31,8 @@
     color: #2aff95;
 }
 
+
+
 table {
     width: 100%;
 }
@@ -52,7 +54,8 @@ table {
 }
 
 .table-header > tr > td{
-    border: 1px solid #faff5a;   
+    border: 1px solid var(--hover-color); 
+    padding: 0.5em;  
 }
 
 .res-btn{
